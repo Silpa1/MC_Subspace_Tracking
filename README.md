@@ -8,7 +8,7 @@ To generate Table IV results:
 
 Load the multi_coil_lowres_speech.mat file (Copy and paste the .mat files in the same folder contating the files To get the dataset plaese contact the authors).
 
-Run Main_Subspace_Tracking.m: This run Mini-batch ST (70,5)and Online ST and calculate NMSE (Normalized Mean Square Error), Time required and save these results in Subspace_Tracking.txt [Error(Time)].
+Run Main_Subspace_Tracking.m: This run Mini-batch ST (70,5)and Online ST and calculate NMSE (Normalized Mean Square Error) for 4 radial lines, Time required and save these results in Subspace_Tracking.txt [Error(Time)]. To genearte the result for 16 radial lines change radial=[16].
 
 ===================================================================================
 
